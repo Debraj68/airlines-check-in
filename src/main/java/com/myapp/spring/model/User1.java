@@ -130,24 +130,24 @@ public class User1 {
 
 
 
-	@Override
-	public int hashCode() {
-		return Objects.hash(pnr,seatNo,baggageWeight,email,firstName,lastName);
-	}
+//	@Override
+//	public int hashCode() {
+//		return Objects.hash(pnr,seatNo,baggageWeight,email,firstName,lastName);
+//	}
 
 
-
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (!(obj instanceof User1))
-			return false;
-		User1 other = (User1) obj;
-		return Objects.equals(pnr, other.pnr) && Objects.equals(seatNo, other.seatNo)
-				&& Objects.equals(baggageWeight, other.baggageWeight) && Objects.equals(email, other.email)
-				&& Objects.equals(firstName, other.firstName) && Objects.equals(lastName, other.lastName);
-	}
+//
+//	@Override
+//	public boolean equals(Object obj) {
+//		if (this == obj)
+//			return true;
+//		if (!(obj instanceof User1))
+//			return false;
+//		User1 other = (User1) obj;
+//		return Objects.equals(pnr, other.pnr) && Objects.equals(seatNo, other.seatNo)
+//				&& Objects.equals(baggageWeight, other.baggageWeight) && Objects.equals(email, other.email)
+//				&& Objects.equals(firstName, other.firstName) && Objects.equals(lastName, other.lastName);
+//	}
 
 
 
