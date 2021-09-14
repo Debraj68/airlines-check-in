@@ -66,19 +66,19 @@ HttpStatus.CREATED);
 }
 
 
-@DeleteMapping("/{email}")
-public Map<String, Boolean> delete(@PathVariable(value = "email") String email)
- throws ResourceNotFoundException {
-   User1 user = (User1) repository.findByEmail(email)
-      .orElseThrow(() -> new ResourceNotFoundException
-      ("User not found for this email :: " + email));
-
-
-   repository.delete(user);
-    Map<String, Boolean> response = new HashMap<>();
-    response.put("deleted", Boolean.TRUE);
-    return response;
-}
+//@DeleteMapping("/{email}")
+//public Map<String, Boolean> delete(@PathVariable(value = "email") String email)
+// throws ResourceNotFoundException {
+//   User1 user = (User1) repository.findByEmail(email)
+//      .orElseThrow(() -> new ResourceNotFoundException
+//      ("User not found for this email :: " + email));
+//
+//
+//   repository.delete(user);
+//    Map<String, Boolean> response = new HashMap<>();
+//    response.put("deleted", Boolean.TRUE);
+//    return response;
+//}
 @GetMapping("/findByBaggageWeight/{baggageWeight}")
 public ResponseEntity<List<User1>> findUsersByBaggageWeight
 (@PathVariable("baggageWeight") Integer baggageWeight){
