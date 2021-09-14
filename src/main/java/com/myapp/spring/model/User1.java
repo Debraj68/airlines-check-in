@@ -151,25 +151,25 @@ public class User1 {
 
 
 
-	@Override
-	public String toString() {
-		StringBuilder builder = new StringBuilder();
-		builder.append("User1 [pnr=");
-		builder.append(pnr);
-		builder.append(", seatNo=");
-		builder.append(seatNo);
-		builder.append(", baggageWeight =");
-		builder.append(baggageWeight);
-		builder.append(", email=");
-		builder.append(email);
-		builder.append(", firstName=");
-		builder.append(firstName);
-		builder.append(", lastName=");
-		builder.append(lastName);
-		builder.append("]");
-		return builder.toString();
-	}
-	
+//	@Override
+//	public String toString() {
+//		StringBuilder builder = new StringBuilder();
+//		builder.append("User1 [pnr=");
+//		builder.append(pnr);
+//		builder.append(", seatNo=");
+//		builder.append(seatNo);
+//		builder.append(", baggageWeight =");
+//		builder.append(baggageWeight);
+//		builder.append(", email=");
+//		builder.append(email);
+//		builder.append(", firstName=");
+//		builder.append(firstName);
+//		builder.append(", lastName=");
+//		builder.append(lastName);
+//		builder.append("]");
+//		return builder.toString();
+//	}
+//	
 	
 	
 }
